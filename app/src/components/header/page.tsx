@@ -4,14 +4,14 @@ import { Container } from "../ui/Container";
 import MobileMenu from "./mobileMenu/page";
 export default function Header(): React.ReactNode {
   return (
-    <header className="border-b-2 border-border">
+    <header className="">
       <MobileMenu />
-      <Container>
+      <Container className="border-b-2 border-border">
         <div className="flex justify-between py-3">
-          <div className="px-12 grow lg:grow-0">
+          <div className="px-8 grow lg:grow-0 w-60">
             <Link href="/app/src">Логотип</Link>
           </div>
-          <div className="flex flex-row justify-between px-12 lg:grow">
+          <div className="flex flex-row justify-between pr-12 lg:grow">
             <nav className="hidden lg:block">
               <ul className="flex flex-row gap-12">
                 <li>
