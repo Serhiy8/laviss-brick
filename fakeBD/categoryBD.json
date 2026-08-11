@@ -1,0 +1,205 @@
+[
+  {
+    "id": "cat-brick",
+    "name": "Цегла",
+    "slug": "cegla",
+    "description": "Цегла для будівництва, облицювання фасадів та інших будівельних робіт.",
+    "parentId": null,
+    "image": "/images/categories/brick.jpg",
+    "isActive": true,
+    "sortOrder": 1,
+    "children": [
+      {
+        "id": "cat-brick-clinker",
+        "name": "Клінкерна цегла",
+        "slug": "klinkerna-cegla",
+        "description": "Міцна та довговічна клінкерна цегла для фасадів та інших будівельних робіт.",
+        "parentId": "cat-brick",
+        "image": "/images/categories/brick-clinker.jpg",
+        "isActive": true,
+        "sortOrder": 1,
+        "children": []
+      },
+      {
+        "id": "cat-brick-facing",
+        "name": "Облицювальна цегла",
+        "slug": "oblicyuvalna-cegla",
+        "description": "Облицювальна цегла для декоративного оздоблення фасадів.",
+        "parentId": "cat-brick",
+        "image": "/images/categories/brick-facing.jpg",
+        "isActive": true,
+        "sortOrder": 2,
+        "children": []
+      },
+      {
+        "id": "cat-brick-common",
+        "name": "Рядова цегла",
+        "slug": "ryadova-cegla",
+        "description": "Рядова цегла для зведення стін та перегородок.",
+        "parentId": "cat-brick",
+        "image": "/images/categories/brick-common.jpg",
+        "isActive": true,
+        "sortOrder": 3,
+        "children": []
+      },
+      {
+        "id": "cat-brick-fence",
+        "name": "Цегла для паркану",
+        "slug": "cegla-parkanu",
+        "description": "Цегла для огорожі створена для довговічних та красивих конструкцій.",
+        "parentId": "cat-brick",
+        "image": "/images/categories/brick-fence.jpg",
+        "isActive": true,
+        "sortOrder": 4,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "building-blocks",
+    "name": "Будівельні блоки",
+    "slug": "budivelni-bloku",
+    "description": "Будівельні блоки для будівництва зовнішніх та внутрішніх стін.",
+    "parentId": null,
+    "image": "/images/categories/aerated-concrete.jpg",
+    "isActive": true,
+    "sortOrder": 2,
+    "children": [
+      {
+        "id": "cat-aerated-concrete",
+        "name": "Газоблок",
+        "slug": "gazoblok",
+        "description": "Газобетонні блоки для будівництва зовнішніх та внутрішніх стін.",
+        "parentId": "building-blocks",
+        "image": "/images/categories/aerated-concrete.jpg",
+        "isActive": true,
+        "sortOrder": 1,
+        "children": []
+      },
+      {
+        "id": "cat-ceramic-block",
+        "name": "Керамоблок",
+        "slug": "keramoblok",
+        "description": "Керамічні блоки для будівництва міцних та енергоефективних стін.",
+        "parentId": "building-blocks",
+        "image": "/images/categories/ceramic-block.jpg",
+        "isActive": true,
+        "sortOrder": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cat-paving",
+    "name": "Тротуарна плитка",
+    "slug": "trotuarna-plytka",
+    "description": "Тротуарна плитка для облаштування подвір'я, доріжок та території.",
+    "parentId": null,
+    "image": "/images/categories/paving.jpg",
+    "isActive": true,
+    "sortOrder": 4,
+    "children": [
+      {
+        "id": "cat-paving-vibropressed",
+        "name": "Вібропресована плитка",
+        "slug": "vibropressed",
+        "description": "Міцна вібропресована плитка для благоустрою території.",
+        "parentId": "cat-paving",
+        "image": "/images/categories/paving-vibropressed.jpg",
+        "isActive": true,
+        "sortOrder": 1,
+        "children": []
+      },
+      {
+        "id": "cat-paving-figured",
+        "name": "Фігурна плитка",
+        "slug": "figurna",
+        "description": "Фігурна тротуарна плитка різних форм та розмірів.",
+        "parentId": "cat-paving",
+        "image": "/images/categories/paving-figured.jpg",
+        "isActive": true,
+        "sortOrder": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cat-border",
+    "name": "Бордюри",
+    "slug": "bordyury",
+    "description": "Бордюри для тротуарів, доріжок та благоустрою території.",
+    "parentId": null,
+    "image": "/images/categories/borders.jpg",
+    "isActive": true,
+    "sortOrder": 5,
+    "children": []
+  },
+  {
+    "id": "cat-mixes",
+    "name": "Будівельні суміші",
+    "slug": "budivelni-sumishi",
+    "description": "Суміші та матеріали для кладки, монтажу та оздоблення.",
+    "parentId": null,
+    "image": "/images/categories/mixes.jpg",
+    "isActive": true,
+    "sortOrder": 6,
+    "children": [
+      {
+        "id": "cat-mix-aerated",
+        "name": "Клей для газоблоку",
+        "slug": "kley-dlya-gazobloku",
+        "description": "Клейові суміші для кладки газобетонних блоків.",
+        "parentId": "cat-mixes",
+        "image": "/images/categories/mix-aerated.jpg",
+        "isActive": true,
+        "sortOrder": 1,
+        "children": []
+      },
+      {
+        "id": "cat-mix-ceramic",
+        "name": "Суміші для керамоблоку",
+        "slug": "sumishi-dlya-keramobloku",
+        "description": "Спеціальні суміші для кладки керамічних блоків.",
+        "parentId": "cat-mixes",
+        "image": "/images/categories/mix-ceramic.jpg",
+        "isActive": true,
+        "sortOrder": 2,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "cat-insulation",
+    "name": "Утеплення",
+    "slug": "uteplennya",
+    "description": "Матеріали для теплоізоляції будинків та інших будівель.",
+    "parentId": null,
+    "image": "/images/categories/insulation.jpg",
+    "isActive": true,
+    "sortOrder": 7,
+    "children": [
+      {
+        "id": "cat-mineral-wool",
+        "name": "Мінеральна вата",
+        "slug": "mineralna-vata",
+        "description": "Теплоізоляційні матеріали на основі мінеральної вати.",
+        "parentId": "cat-insulation",
+        "image": "/images/categories/mineral-wool.jpg",
+        "isActive": true,
+        "sortOrder": 1,
+        "children": []
+      },
+      {
+        "id": "cat-eps",
+        "name": "Пінополістирол",
+        "slug": "pinopolistyrol",
+        "description": "Пінополістирол для теплоізоляції фасадів та будівель.",
+        "parentId": "cat-insulation",
+        "image": "/images/categories/eps.jpg",
+        "isActive": true,
+        "sortOrder": 2,
+        "children": []
+      }
+    ]
+  }
+]

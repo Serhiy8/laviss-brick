@@ -10,7 +10,7 @@ export default function HeroTop() {
       </h1>
       <Link
         href="/"
-        className="group relative flex-1 overflow-hidden rounded-xl basis-[calc(50%-8px)]"
+        className=" transition-transform duration-300 hover:scale-102 relative flex-1 overflow-hidden rounded-[22px] basis-[calc(50%-8px)]"
       >
         <Image
           src="/image/hero-banner.jpg"
@@ -18,7 +18,7 @@ export default function HeroTop() {
           width={488}
           height={244}
           loading="eager"
-          className="h-auto w-full rounded-xl transition-transform duration-300 group-hover:scale-105"
+          className="h-auto w-full rounded-xl"
         />
 
         <div className="absolute top-0 h-full flex items-center">

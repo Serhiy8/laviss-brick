@@ -7,11 +7,14 @@
 
   /* Text */
   --color-text: #1f2937;
+  --color-text-white: #ffffff;
   --color-text-secondary: #6b7280;
   --color-text-muted: #9ca3af;
 
   /* Background */
   --color-background: #ffffff;
+  --color-background-img: #e5e7eb;
+
   --color-background-secondary: #6b7280;
   --color-background-dark: #1f2937;
 

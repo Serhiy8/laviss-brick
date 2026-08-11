@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
+import Header from "./components/header/page";
+import { Container } from "./components/ui/Container";
 
 const manrope = Manrope({
   subsets: ["cyrillic", "latin"],
@@ -17,8 +19,13 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body className={manrope.variable}>{children}</body>
+    <html lang="en" data-scroll-behavior="smooth">
+      <body className={manrope.variable}>
+        <Container>
+          <Header />
+          {children}
+        </Container>
+      </body>
     </html>
   );
 }
