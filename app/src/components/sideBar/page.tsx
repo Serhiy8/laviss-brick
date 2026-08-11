@@ -7,10 +7,10 @@ import { useState } from "react";
 export default function SideBar(): React.ReactNode {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="border-r-2 px-8 border-border shrink-0 w-60">
+    <div className="border-r-2 border-border shrink-0 w-60">
       <button
         type="button"
-        className="flex gap-2"
+        className="flex gap-2 py-4 border-b-2 border-border w-full justify-center font-black"
         onClick={() => setIsOpen((prev) => !prev)}
       >
         Categories
@@ -19,18 +19,24 @@ export default function SideBar(): React.ReactNode {
       {isOpen && (
         <ul>
           <li>
-            <Link href="faceBrick" className="">
+            <Link href="faceBrick" className="link">
               Облицювальна цегла
             </Link>
           </li>
           <li>
-            <Link href="clinkerBrick">Клінкерна цегла</Link>
+            <Link href="clinkerBrick" className="link">
+              Клінкерна цегла
+            </Link>
           </li>
           <li>
-            <Link href="blocks">Будівельні блоки</Link>
+            <Link href="blocks" className="link">
+              Будівельні блоки
+            </Link>
           </li>
           <li>
-            <Link href="ogorozhi">Огорожі</Link>
+            <Link href="ogorozhi" className="link">
+              Огорожі
+            </Link>
           </li>
         </ul>
       )}

@@ -12,7 +12,7 @@
 
   /* Background */
   --color-background: #ffffff;
-  --color-background-secondary: #f7f7f5;
+  --color-background-secondary: #6b7280;
   --color-background-dark: #1f2937;
 
   /* Borders */
@@ -41,7 +41,6 @@ body {
   font-family: var(--font-manrope), sans-serif;
 }
 
-button,
 input,
 textarea,
 select {
@@ -62,21 +61,21 @@ img {
   display: block;
 }
 
-.header-link {
+.link {
   position: relative;
   color: var(--color-header-link);
   transition: color 0.2s ease;
 }
 
-.header-link:hover {
+.link:hover {
   color: var(--color-text);
 }
 
-.header-link-active {
+.link-active {
   color: var(--color-text);
 }
 
-.header-link-active::after {
+.link-active::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -86,4 +85,10 @@ img {
   border-radius: 999px;
   background: var(--color-primary);
   transform: translateX(-50%);
+}
+
+.hero-bg {
+  background-image: url("/image/hero-banner.jpg");
+  background-size: cover;
+  background-position: center;
 }

@@ -15,17 +15,17 @@ export default function Header(): React.ReactNode {
             <nav className="hidden lg:block">
               <ul className="flex flex-row gap-12">
                 <li>
-                  <Link href="src" className="header-link header-link-active">
+                  <Link href="src" className="link link-active">
                     Головна
                   </Link>
                 </li>
                 <li>
-                  <Link href="src/products" className="header-link">
+                  <Link href="src/products" className="link">
                     Магазин
                   </Link>
                 </li>
                 <li>
-                  <Link href="src/articles" className="header-link">
+                  <Link href="src/articles" className="link">
                     Статті
                   </Link>
                 </li>
