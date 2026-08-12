@@ -1,4 +1,4 @@
-import categories from "../../../fakeBD/categoryBD.json";
+import categories from "../../../../fakeBD/categoryBD.json";
 
 interface CategoryEl {
   id: string;

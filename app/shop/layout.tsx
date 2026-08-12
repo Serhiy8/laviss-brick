@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className={manrope.variable}>
-        <Container>
+        <Container className="sm:block">
           <Header />
           {children}
         </Container>

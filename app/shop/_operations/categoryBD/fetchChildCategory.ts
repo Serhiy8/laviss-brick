@@ -1,4 +1,4 @@
-import categories from "../../../fakeBD/categoryBD.json";
+import categories from "../../../../fakeBD/categoryBD.json";
 
 export default function fetchChildCategory(id: string | null) {
   return categories.filter((el) => {

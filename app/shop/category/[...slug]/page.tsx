@@ -1,5 +1,5 @@
 import Link from "next/link";
-import fetchCurrentCat from "../../_operationCategoryBD/fetchCurrentCat";
+import fetchCurrentCat from "../../_operations/categoryBD/fetchCurrentCat";
 
 export default async function Category({
   params,
@@ -23,7 +23,10 @@ export default async function Category({
             if (cat.parentId === currentCategory[0].id) {
               return (
                 <li key={cat.id}>
-                  <Link href={`/shop/category/${slug.join("/")}/${cat.slug}`}>
+                  <Link
+                    href={`/shop/category/${slug.join("/")}/${cat.slug}`}
+                    className=" before:content-['['] after:content-[']']"
+                  >
                     {cat.name}
                   </Link>
                 </li>

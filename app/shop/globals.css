@@ -44,12 +44,6 @@ body {
   font-family: var(--font-manrope), sans-serif;
 }
 
-input,
-textarea,
-select {
-  font: inherit;
-}
-
 button {
   cursor: pointer;
 }
@@ -85,7 +79,7 @@ img {
   bottom: -15.5px;
   width: 40px;
   height: 2px;
-  border-radius: 999px;
+  border-radius: 2px;
   background: var(--color-primary);
   transform: translateX(-50%);
 }
