@@ -1,6 +1,6 @@
-import Faq from "./components/faq/page";
-import Hero from "./components/hero/page";
-import SideBar from "./components/sideBar/page";
+import Faq from "./shop/components/faq/page";
+import Hero from "./shop/components/hero/page";
+import SideBar from "./shop/components/sideBar/page";
 
 export default function Home() {
   return (
