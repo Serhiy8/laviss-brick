@@ -10,7 +10,7 @@ export default function HeroBottom() {
         className="flex-2 relative transition-transform duration-300 hover:scale-102"
       >
         <Image
-          src="/image/hero-banner-3.jpg"
+          src="/image/hero-banner-2.jpg"
           alt="банер для газоблоків"
           loading="eager"
           width={800}
