@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header/page";
 import { Container } from "./components/ui/Container";
+import Footer from "./components/footer/page";
 
 const manrope = Manrope({
   subsets: ["cyrillic", "latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Container className="sm:block">
           <Header />
           {children}
+          <Footer />
         </Container>
       </body>
     </html>
