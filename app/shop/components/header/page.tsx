@@ -8,7 +8,7 @@ export default function Header(): React.ReactNode {
       <MobileMenu />
       <div className="flex flex-1 justify-between py-3 border-b-2 border-border">
         <div className="w-40 lg:grow-0 lg:w-60">
-          <Link href="/shop">
+          <Link href="/">
             <Image
               src="/image/logo.png"
               alt="logo"
@@ -22,17 +22,17 @@ export default function Header(): React.ReactNode {
           <nav className="hidden md:block">
             <ul className="flex flex-row gap-12">
               <li>
-                <Link href="src" className="link link-active">
+                <Link href="/" className="link link-active">
                   Головна
                 </Link>
               </li>
               <li>
-                <Link href="src/products" className="link">
+                <Link href="/shop/products" className="link">
                   Магазин
                 </Link>
               </li>
               <li>
-                <Link href="src/articles" className="link">
+                <Link href="/shop/articles" className="link">
                   Статті
                 </Link>
               </li>
