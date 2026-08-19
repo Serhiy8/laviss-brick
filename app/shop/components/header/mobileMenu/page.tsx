@@ -1,6 +1,6 @@
 "use client";
 
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -18,18 +18,28 @@ export default function MobileMenu() {
       </button>
 
       {isOpen && (
-        <nav className="absolute top-0 w-screen h-screen z-1 border-border bg-white shadow-lg">
-          <Link href="/shop" className="block py-3">
-            Головна
-          </Link>
+        <nav className="top-0 w-screen h-screen z-1 border-border bg-white shadow-lg flex justify-evenly items-center flex-col fixed">
+          <div className="felx justify-center">
+            <Link href="/shop" className="block py-3">
+              Головна
+            </Link>
 
-          <Link href="/shop/products" className="block py-3">
-            Каталог
-          </Link>
+            <Link href="/shop/products" className="block py-3">
+              Каталог
+            </Link>
 
-          <Link href="/shop/articles" className="block py-3">
-            Статті
-          </Link>
+            <Link href="/shop/articles" className="block py-3">
+              Статті
+            </Link>
+          </div>
+
+          <button
+            type="button"
+            className="border border-primary hover:border-primary-hover rounded-full p-3 shadow-[0_4px_14px_0_rgba(255,177,0,0.4)] hover:shadow-[0_6px_20px_0_rgba(255,189,46,0.6)] transition-all duration-200"
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <X size={26} className="text-primary hover:border-primary-hover" />
+          </button>
         </nav>
       )}
     </div>
