@@ -19,16 +19,28 @@ export default function MobileMenu() {
 
       {isOpen && (
         <nav className="top-0 w-screen h-screen z-1 border-border bg-white shadow-lg flex justify-evenly items-center flex-col fixed">
-          <div className="felx justify-center">
-            <Link href="/shop" className="block py-3">
+          <div className="felx justify-center text-center">
+            <Link
+              href="/"
+              className="block py-3"
+              onClick={() => setIsOpen(!isOpen)}
+            >
               Головна
             </Link>
 
-            <Link href="/shop/products" className="block py-3">
+            <Link
+              href="/shop/products"
+              className="block py-3"
+              onClick={() => setIsOpen(!isOpen)}
+            >
               Каталог
             </Link>
 
-            <Link href="/shop/articles" className="block py-3">
+            <Link
+              href="/shop/articles"
+              className="block py-3"
+              onClick={() => setIsOpen(!isOpen)}
+            >
               Статті
             </Link>
           </div>
