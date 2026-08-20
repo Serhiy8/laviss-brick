@@ -22,11 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className={manrope.variable}>
-        <Container className="sm:block">
-          <Header />
-          {children}
-          <Footer />
-        </Container>
+        <Header />
+        <Container className="sm:block">{children}</Container>
+        <Footer />
       </body>
     </html>
   );

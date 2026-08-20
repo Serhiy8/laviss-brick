@@ -1,5 +1,6 @@
 import Faq from "./shop/components/faq/page";
 import Hero from "./shop/components/hero/page";
+import OrderCall from "./shop/components/orderCall/orderCall";
 import SideBar from "./shop/components/sideBar/page";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
       </div>
       <Faq />
+      <OrderCall />
     </>
   );
 }

@@ -4,10 +4,10 @@ import MobileMenu from "./mobileMenu/page";
 import Image from "next/image";
 export default function Header(): React.ReactNode {
   return (
-    <header className="">
+    <header className="max-w-7xl m-auto">
       <MobileMenu />
-      <div className="flex flex-1 justify-between py-3 border-b-2 border-border">
-        <div className="w-40 lg:grow-0 lg:w-60">
+      <div className="flex flex-1 justify-between py-3 border-b-2 border-border ">
+        <div className="w-46 lg:grow-0 lg:w-66">
           <Link href="/">
             <Image
               src="/image/logo.png"

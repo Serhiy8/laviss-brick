@@ -29,7 +29,7 @@ export default function SideBarClient({ categories }: SideBarClientProps) {
     <div className="shrink-0 w-full md:w-40 lg:w-60 md:border-r-2 md:border-border">
       <button
         type="button"
-        className="flex gap-2 py-4 border-b-2 border-border w-full justify-center font-black"
+        className="flex gap-2 py-4 md:border-b-2 md:border-border w-full justify-center font-black text-accent"
         onClick={() => setIsOpen((prev) => !prev)}
       >
         Categories
