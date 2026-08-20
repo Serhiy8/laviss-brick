@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function HeroTop() {
   return (
     <>
-      <h1 className="text-center flex-1 font-black m-auto p-4 basis-[calc(50%-8px)] lg:text-[24px] xl:text-[36px] ">
+      <h1 className="text-center flex-1 font-black m-auto p-4 basis-[calc(50%-8px)] text-[20px] lg:text-[30px] xl:text-[40px] ">
         Купуй будівельні матеріали{" "}
         <span className="text-accent">швидко та легко</span> з ЛАВІСС-брік.
       </h1>

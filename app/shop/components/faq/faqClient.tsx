@@ -14,8 +14,8 @@ export type FaqProps = {
 export default function FaqClient({ faq }: FaqProps) {
   const faqCol = arrayBreaker({ faq: faq }, 4);
   return (
-    <div>
-      <h2 className="px-4 font-black text-xl mt-4 text-accent">
+    <div className="py-12">
+      <h2 className="px-4 font-black text-xl text-accent">
         Є запитання? У нас є відповідь!
       </h2>
       <div className="py-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 items-start">
